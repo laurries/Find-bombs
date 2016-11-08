@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+  <html >
+       <head>
+           <title>Find  Bombs</title>
+           <meta charset="utf-8">
+           <link rel="stylesheet" type="text/css" href="style.css">          
+    </head>
+    <body>
+      <div class="content">
+           <div class="con-tit">
+                        <h2>扫雷游戏</h2>
+                     <form id="gameform" name="gameform">
+                     <input type="radio" name="version" value="1" checked>初级
+			         <input type="radio" name="version" value="2">中级
+			         <input type="radio" name="version" value="3">高级				
+                             &nbsp;&nbsp;&nbsp;&nbsp;
+                            完成任务用时&nbsp;&nbsp;
+                     <span id="timeCount">0</span>秒&nbsp;&nbsp;
+                     <span>剩余雷数</span>&nbsp;&nbsp;<input type="text" id="minesCount"  name="minesCount" value="10" >  
+                     </form>                           
+                        <table id="gameplay"> 
+                        
+                        </table>
+              <span>自定义总雷数</span>&nbsp;&nbsp;<input type="text" name="minesDef" id="minesDef"  >&nbsp;&nbsp;&nbsp;&nbsp;
+                  <input type="submit" id="restart"  value="重新开始新游戏">
+               </div>
+          </div>
+           <script type="text/javascript" src="find bombs.js"></script>
+     </body>
+</html>
